@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>sidemenu</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+
+  <!-- Theme style -->
+  <link rel="stylesheet" href="sidemenu/sidemenu_layout.css">
+
+  <link rel="stylesheet" href="sidemenu/_all-skins.css">
+<link href="css/nav_footer.css" rel="stylesheet"/>
+  <link href="css/v_main.css" rel="stylesheet"/>
+  <link href="css/index.css" rel="stylesheet"/>
+  <link href="css/hover.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="http://cdn.jsdelivr.net/animatecss/2.1.0/animate.min.css" />
+  <!-- <link href="css/slideanim.css" rel="stylesheet"/> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <!-- <script src="js/slideanim.js"></script> -->
+  <style type="text/css">
+      /*footer*/
+   @media only screen and (max-width: 1024px) {
+    .vchip-design, .institute1 {
+        display:none;
+    }
+}
+
+/*testimonial*/
+@media only screen and (max-width: 1024px) {
+    .testimonial-image {
+        display:none;
+    }
+}
+#quote-carousel {
+    padding: 0 10px 30px 10px;
+    margin-top: 30px;
+}
+#quote-carousel .carousel-control {
+    background: none;
+    color: #CACACA;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 30px;
+}
+
+#quote-carousel .carousel-indicators {
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-right: -19px;
+}
+#quote-carousel .carousel-indicators li {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    cursor: pointer;
+    border: 4px solid #CCC;
+    border-radius: 50px;
+    opacity: 0.4;
+    overflow: hidden;
+    transition: all 0.4s;
+}
+#quote-carousel .carousel-indicators .active {
+/*    background: #333333;
+*/    width: 128px;
+    height: 128px;
+    border-radius: 100px;
+    border-color: #f33;
+    opacity: 1;
+    overflow: hidden;
+}
+.carousel-inner {
+    min-height: 300px;
+}
+.item blockquote {
+    border-left: none;
+    margin: 0;
+}
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
+#sidebar{ height: 100%;
+    position: fixed;}
+
+</style>
+
+</head>
+<body class="hold-transition skin-blue sidebar-mini sidebar-collapse" id="body">
+<div class="wrapper ">
+
+  <header class="main-header ">
+    <!-- Logo -->
+    <a href="index.html" class="logo">
+      <!-- mini logo for sidebar mini 50x50 pixels -->
+      <span class="logo-mini"><b> V</b>EDU</span>
+      <!-- logo for regular state and mobile devices -->
+      <span class="logo-lg"><b>Vchip</b>Design</span>
+    </a>
+    <!-- Header Navbar: style can be found in header.less -->
+    <nav class="navbar navbar-static-top ">
+      <!-- Sidebar toggle button-->
+      <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button" id="zxc" >
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+
+     <!--  <div class="navbar-custom-menu">
+        <ul class="nav navbar-nav">
+          
+        </ul>
+      </div> -->
+    </nav>
+  </header>
+  <!-- Left side column. contains the logo and sidebar -->
+  <aside class="main-sidebar" id="sidebar">
+    <!-- sidebar: style can be found in sidebar.less -->
+    <section class="sidebar">
+      <!-- Sidebar user panel -->
+      <div class="user-panel">
+        <div class="pull-left image">
+          <img src="img/user/user.png" class="img-circle" alt="User Image">
+        </div>
+        <div class="pull-left info">
+          <p>Ashvini D.</p>
+          <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+        </div>
+      </div>
+      <!-- search form -->
+      <form action="#" method="get" class="sidebar-form">
+        <div class="input-group">
+          <input type="text" name="q" class="form-control" placeholder="Search...">
+              <span class="input-group-btn">
+                <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i>
+                </button>
+              </span>
+        </div>
+      </form>
+      <!-- /.search form -->
+      <!-- sidebar menu: : style can be found in sidebar.less -->
+      <ul class="sidebar-menu">
+        <li class="header">Vchip Design</li>
+        <li class="treeview ">
+          <a href="#">
+            <i class="fa fa-home"></i> <span>Home</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+               <li><a href="#nav-logo"><i class="fa fa-circle-o"></i> Nav-logo</a></li>
+                <li id="header1"><a href="" ><i class="fa fa-circle-o"></i>Header</a></li>
+                <li><a href=""><i class="fa fa-circle-o"></i>About us 
+                <span class="pull-right-container">
+                   <span class="label label-primary pull-right" data-toggle="tooltip"  title="Remove">
+                    <i class="fa fa-times "></i>
+                   </span>
+                  </span></a>
+                </li>
+               <li><a href=""><i class="fa fa-circle-o"></i> Online Courses
+                  <span class="pull-right-container">
+                   <span class="label label-primary pull-right" data-toggle="tooltip"  title="Remove">
+                    <i class="fa fa-times "></i>
+                   </span>
+                  </span></a>
+                </li>
+               <li><a href=""><i class="fa fa-circle-o"></i> Online Test-series   
+                 <span class="pull-right-container">
+                     <span class="label label-primary pull-right" data-toggle="tooltip" title="Remove">
+                      <i class="fa fa-times "></i>
+                     </span>
+                 </span></a>
+               </li>
+                <li><a href=""><i class="fa fa-circle-o"></i>Our customer   
+                  <span class="pull-right-container">
+                   <span class="label label-primary pull-right" data-toggle="tooltip" title="Remove">
+                    <i class="fa fa-times "></i>
+                   </span>
+                  </span></a>
+                </li>
+                <li><a href=""><i class="fa fa-circle-o"></i>Testimonial   
+                  <span class="pull-right-container">
+                   <span class="label label-primary pull-right" data-toggle="tooltip"  title="Remove">
+                    <i class="fa fa-times "></i>
+                   </span>
+                  </span></a>
+                </li>
+                <li><a href=""><i class="fa fa-circle-o"></i>Our Team   
+                  <span class="pull-right-container">
+                   <span class="label label-primary pull-right" data-toggle="tooltip"  title="Remove">
+                    <i class="fa fa-times "></i>
+                   </span>
+                  </span></a>
+                </li>
+                <li><a href="#footer" id="footer1"><i class="fa fa-circle-o"></i>Footer</a></li>
+
+          </ul>
+        </li>
+    
+        <li>
+          <a href="">
+            <i class="fa fa-th"></i> <span>Add Section</span>
+            <span class="pull-right-container">
+              <small class="label pull-right bg-green">new</small>
+            </span>
+          </a>
+        </li>
+        <li><a href="#"><i class="fa fa-circle-o text-red"></i> <span>Logout</span></a></li>
+        <li><a href="#"><i class="fa fa-circle-o text-yellow"></i> <span>Warning</span></a></li>
+        <li><a href="#"><i class="fa fa-circle-o text-aqua"></i> <span>Information</span></a></li>
+      </ul>
+    </section>
+    <!-- /.sidebar -->
+  </aside>
+
+  <!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper" >
+  <nav class="navbar navbar-default  shrink" role="navigation" style="margin: 0 0px; ">
+    <div class="container">
+      <div class="pull-left">
+        <a id="nav-logo" class="navbar-brand pull-left" href="index.html"><i class="fa fa-university"></i><span>Vchip</span></a>
+      </div>
+      <div class="navbar-header pull-right">
+        <button type="button" class="navbar-toggle pull-left" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        
+        <div class="pull-right dropdown " >
+          <a href="#" class="dropdown-toggle pull-right user_menu" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-user" aria-hidden="true"></i><b class="caret"></b>
+          </a>
+          <ul class="dropdown-menu" role="menu">
+            <div class="navbar-content">
+              <li><a href=""><i class="fa fa-tachometer" aria-hidden="true"></i>
+                Dashbord</a></li> 
+                <li><a href=""><i class="fa fa-user" aria-hidden="true"></i>
+                  My Profile</a></li>
+                  <li><a href=""><i class="fa fa-sign-out" aria-hidden="true"></i>Logout</a></li>
+                </div>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+             <li class=""><a href="#body1">HOME</a></li>
+             <li class=""><a href="#courses">Course</a></li>
+             <li class=""><a href="#test">Test Series</a></li>
+            </ul>       
+          </div>
+       </div>
+  </nav>
+    <!--<div class="col-md-10">col-md-10  -->
+       <header id="vchip-header" class="vchip-cover vchip-cover-md mrgn_60_btm" role="banner" style="background-image: url(img/header.jpg)" data-stellar-background-ratio="0.5">
+          <div class="overlay"></div>
+          <div class="vchip-container ">
+            <div class="row">
+              <div class="col-md-12 col-md-offset-0 text-left">
+
+
+                <div class="row mrgn_200_top">
+                  <div class="col-md-7 mt-text animate-box" data-animate-effect="fadeInUp">
+                    <span class="intro-text-small animated bounceInLeft">V-EDU <a href="" target="_blank">vchipdesign.com</a></span>
+                    <h1 class="cursive-font">Digital Education</h1>  
+                  </div>
+                  <div class="col-md-5  animated bounceInRight" data-animate-effect="fadeInRight">
+                    <div class="form-wrap">
+                     <div class="tab">
+
+                      <div class="tab-content">
+                        <div class="tab-content-inner active" data-content="signup">
+                         <ul class=" nav-tabs v_login_reg text-center">
+
+                          <li class="active"><a data-toggle="tab" href="#home">Sign In</a></li>
+                          <li><a data-toggle="tab" href="#menu1">Sign Up</a></li>
+                        </ul>
+                        <div class="tab-content">
+                          <div id="home" class="tab-pane fade in active">
+                            <form id="loginForm" method="POST">
+                              <div class="form-group">
+                                <!-- <label for="username" class="control-label">Username</label> -->
+                                <input type="email" class="form-control" name="username" value="" required="" title="Please enter your username" placeholder="email">
+                                <span class="help-block"></span>
+                              </div>
+                              <div class="form-group">
+                                <!-- <label for="password" class="control-label">Password</label> -->
+                                <input type="password" class="form-control" name="password" placeholder="password" value="" required="" title="Please enter your password">
+                                <span class="help-block"></span>
+                              </div>
+                              <div id="loginErrorMsg" class="alert alert-error hide">Wrong username or password</div>
+                              <div class="checkbox">
+                                <label>
+                                  <input type="checkbox" name="remember" id="remember"> Remember login
+                                </label>
+                              </div>
+                              <button type="submit" value="login" name="submit" class="btn btn-info btn-block">Login</button><br/>
+                              <div><a href="" >Forgot Password?</a></div>
+
+                            </form>
+                          </div>
+                          <div id="menu1" class="tab-pane fade">
+                            <form id="loginForm" method="POST">
+                              <div class="form-group">
+                               <!--  <label for="username" class="control-label">Username</label> -->
+                               <input type="text" class="form-control" name="username" value="" placeholder="User Name"/>
+                               <span class="help-block"></span>
+                             </div>
+                             <div class="form-group">
+                              <!-- <label for="email" class="control-label">Email</label> -->
+                              <input type="phone" class="form-control" name="mobile number" value="" placeholder="Mobile number" />
+                              <span class="help-block"></span>
+                            </div>
+                            <div class="form-group">
+                              <!-- <label for="email" class="control-label">Email</label> -->
+                              <input type="text" class="form-control" name="email" value="" placeholder="Email" />
+                              <span class="help-block"></span>
+                            </div>
+                            <div class="form-group">
+                              <!-- <label for="password" class="control-label">Password</label> -->
+                              <input type="password" class="form-control" name="password" placeholder="password" />
+                              <span class="help-block"></span>
+                            </div>
+                            <div class="form-group">
+                              <!-- <label for="password" class="control-label">Conform Password</label> -->
+                              <input type="password" class="form-control" name="password" placeholder="Reenter Password" />
+                              <span class="help-block"></span>
+                            </div>
+
+                          <button type="submit" value="Register" name="submit" class="btn btn-info btn-block">Register</button><br />
+                          <div><a class="mrgn_10_top">alredy member?</a></div>
+                          </form>
+                          </div>
+                        </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+            </div>
+            </div>
+            </div>
+            </div>
+       </header>
+        <section id="about" class="v_bg_grey" >
+          <div class="container v_container ">
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2 text-center" id="about2">
+                <h2 class="v_h2_title flyLeft">ABOUT US</h2>
+                <hr class="section-dash-dark"/>
+              </div>
+            </div>
+            <ul class="nav nav-pills mrgn_30_top" >
+              <li class="active"><a data-toggle="tab" href="#about1">About</a></li>
+              <li><a data-toggle="tab" href="#vission">Vission</a></li>
+              <li><a data-toggle="tab" href="#mission">Mission</a></li>
+            </ul>
+
+            <div class="tab-content" style="background-color: #01bafd; padding : 6px 15px;">
+              <div id="about1" class="tab-pane fade in active">
+                <h3 class="v_h3_title">About</h3>
+                <p>Education is reed of better society and in our country(India) most of people are live in villages . So V-edu is working on Digital Education platform, so that we can provide great education platform equally in villages and remote areas along with urban area. In other word you can learn with fun from anywhere in the world.  We always believes that better society  is a best place to live and educated society is best society. So at initial stage will we provide our services, V-edu platform at basic pay and after 2020 we will open V-edu platform completely free of cost for society.</p>
+              </div>
+              <div id="vission" class="tab-pane fade">
+                <h3 class="v_h3_title">Vission</h3>
+                <p>To be at leading and respectable place in the knowledge led creativity movement. World see toward our country as leading industry of Electronics and IT sector.</p>
+              </div>
+              <div id="mission" class="tab-pane fade">
+                <h3 class="v_h3_title">Mission</h3>
+                <p>Education is reed of better society and in our country most of people are depend on farm. So Vchip is working on Education and Agriculture sector at first. At initial stage these two sector help a company for initial money transaction. After 2020 we will open these two platform completely free of cost for society . Vchip is also work in Health and Food sector. These two sector are main source of money transaction of Vchip. We are mostly focused on our customer requirement and always work for completion of their demands with satisfaction. We are giving importance to creative minds and always be with the one having innovative ideas. We give priority to work in union and always like to work in competitive environment. We are at the learning stage and will always be at same place since we believe that there is something to learn to implement new ideas with the use of experience.</p>
+              </div>
+            </div>
+          </div><br />
+        </section>
+        <section id="courses">
+          <div class="container v_container">
+           <div class="row mrgn_60_btm">
+             <div class="col-md-8 col-md-offset-2 text-center mrgn-60-top">
+              <h2 class="v_h2_title">ONLINE COURSES</h2>
+              <hr class="section-dash-dark"/>
+              <h3 class="v_h3_title">Digital Education...</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-6 slideanim">
+              <div class="vchip_product_itm text-left">
+                <figure>
+                  <img src="img/index/online-course.jpg" alt="onlne course" class="img-responsive">
+                </figure>
+                <ul class="vchip_categories list-inline">
+                  <li>Online Courses</li>
+                </ul>
+                <div class="vchip_product_content">
+                  <p>We provide online courses... </p>
+                  <p class="mrgn_20_top"><a href="courses.html" class="btn-link">Learn More <i
+                    class="fa fa-angle-right"
+                    aria-hidden="true"></i></a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+              <div class="vchip_product_itm">
+                <figure>
+                  <img src="img/index/live-course.jpg" alt="live course" class="img-responsive">
+                </figure>
+                <ul class="vchip_categories list-inline">
+                  <li>Live courses</li>
+                </ul>
+                <div class="vchip_product_content">
+                  <p>We provide Livecourses... </p>
+                  <p class="mrgn_20_top"><a href="live_course.html" class="btn-link">Learn More <i
+                    class="fa fa-angle-right"
+                    aria-hidden="true"></i></a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 slideanim">
+              <div class="vchip_product_itm">
+                <figure>
+                  <img src="img/index/webinar.jpg" alt="webinar" class="img-responsive">
+                </figure>
+                <ul class="vchip_categories list-inline">
+                  <li>Webinar</li>
+                </ul>
+                <div class="vchip_product_content">
+                  <p>We provide Webine... </p>
+                  <p class="mrgn_20_top"><a href="webinar.html" class="btn-link">Learn More <i
+                    class="fa fa-angle-right"
+                    aria-hidden="true"></i></a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+            </div>
+        </section>
+        <section class="v_bg_grey" id="test">
+          <div class="container v_container">
+           <div class="row mrgn_60_btm">
+             <div class="col-md-8 col-md-offset-2 text-center mrgn-60-top">
+              <h2 class="v_h2_title">Online Test Series</h2>
+              <hr class="section-dash-dark"/>
+              <h3 class="v_h3_title">Test Series in your pocket</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-6 slideanim">
+              <div class="vchip_product_itm text-left">
+                <figure>
+                  <img src="img/index/online-course.jpg" alt="onlne course" class="img-responsive">
+                </figure>
+                <ul class="vchip_categories list-inline">
+                  <li>Test1</li>
+                </ul>
+                <div class="vchip_product_content">
+                  <p>We provide online test series... </p>
+                  <p class="mrgn_20_top"><a href="courses.html" class="btn-link">Learn More <i
+                    class="fa fa-angle-right"
+                    aria-hidden="true"></i></a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+              <div class="vchip_product_itm">
+                <figure>
+                  <img src="img/index/live-course.jpg" alt="live course" class="img-responsive">
+                </figure>
+                <ul class="vchip_categories list-inline">
+                  <li>Test2</li>
+                </ul>
+                <div class="vchip_product_content">
+                  <p>We provide online test series... </p>
+                  <p class="mrgn_20_top"><a href="live_course.html" class="btn-link">Learn More <i
+                    class="fa fa-angle-right"
+                    aria-hidden="true"></i></a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </section>
+        <!-- end product -->
+        <section class="v_container" id="customers">
+          <div class="container" >
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2 text-center ">
+                <h2 class="v_h2_title">OUR CUSTOMERS</h2>
+                <hr class="section-dash-dark"/>
+                <h3 class="v_h3_title">Happy customers...Successful adventure.</h3>
+              </div>
+              <div class="row our_customer">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 slideanim">
+                  <div class="hovereffect">
+                    <img class="" src="img/logo/ssgmce-logo.jpg" alt="SSGMCE" >
+                    <div class="overlay">
+                     <h2>SSGMCE</h2>
+                     <a class="info" href="http://ssgmce.org/Default.aspx?ReturnUrl=%2f" target="_blank">link here</a>
+                   </div>
+                 </div>
+               </div>
+               <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 slideanim mrgn_10_top">
+                <div class="hovereffect">
+                  <img class="" src="img/logo/gatetheDirection.png" alt="GATE THE Direction" style="padding: 20px 0px;">
+                  <div class="overlay">
+                   <h2>GATE THE Direction</h2>
+                   <a class="info" href="http://gatethedirection.com/" target="_blank">link here</a>
+                 </div>
+               </div>
+             </div>
+             <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 slideanim mrgn_10_top">
+              <div class="hovereffect">
+                <img class="" src="img/logo/kaizen.jpg" alt="Kaizen Technology">
+                <div class="overlay">
+                 <h2>Kaizen Technology</h2>
+                 <a class="info" href="http://kaizenn.org/" target="_blank">link here</a>
+               </div>
+             </div>
+           </div>
+           <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 slideanim mrgn_10_top">
+            <div class="hovereffect">
+              <img class="" src="img/logo/lasthour_logo.jpg" alt="Last Hours Technology">
+              <div class="overlay">
+               <h2>Last Hours Technology</h2>
+               <a class="info" href="http://lasthourstech.com/" target="_blank">link here</a>
+             </div>
+           </div>
+         </div>
+         
+          </div>
+          </div>
+          </div>
+        </section>
+     
+        <footer id="footer">
+          <div class="footer" >
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                  <h3> organizations</h3>
+                  <ul>
+                    <li><a href="#"> Home</a></li>
+                    <li><a href="#" >Courses</a></li>
+                    <li><a href="#" >Test Series</a></li>
+                    <li><a href="#" >My Dashbord</a></li>
+                    <li><a href="#" >Admin Log in</a></li>
+                  </ul>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                  <h3> Contact Us </h3>
+                  <address>
+                   <p>VCHIP DESIGN PVT LTD</p>
+                   <p>Address: GITANJALI COLONY, NEAR RAJYOG SOCIETY, </p>
+                   <p> WARJE, PUNE-411058, INDIA.</p>
+                   <p>Email: info@vchipdesign.com</p>
+                 </address>
+
+               </div>
+             </div>
+             <!--/.row--> 
+           </div>
+         </div>
+
+         <div class="footer-bottom">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4  col-md-4 col-sm-6 col-xs-6 vchip-design">
+                <p class="pull-left"><a href="http://www.vchipdesign.com/" class="site_link" target="_blank">Design by: vchipdesign.com </a></p>
+              </div>
+              <div class="col-lg-4  col-md-4 col-sm-6 col-xs-6 social-network1">
+                <ul class="social-network social-circle pull-left">
+
+                  <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+                  <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                </ul> 
+              </div>
+              <div class="col-lg-4  col-md-4 col-sm-6 col-xs-6 institute1">
+                <p class="pull-right"><a href="http://www.vchipdesign.com/" class="site_link" target="_blank">Institude Name</a></p>
+              </div>
+            </div>
+          </div>
+          </div>
+        </footer>
+    <!--</div>col-md-10  -->
+  </div>
+<!-- ./wrapper -->
+</div>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="js/app.js"></script>
+
+<script>
+$("#header1").click(function() {
+  $("body").addClass("sidebar-collapse");
+})
+$("#footer1").click(function() {
+  $("body").addClass("sidebar-collapse");
+})
+</script>
+
+</body>
+</html>

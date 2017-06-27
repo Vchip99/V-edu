@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Bootstrap Example</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<style type="text/css">
+	.panel
+	{
+		-webkit-box-shadow: 0 1px 0px rgba(0,0,0,0.12), 0 1px 1px rgba(0,0,0,0.24);
+		-moz-box-shadow: 0 1px 0px rgba(0,0,0,0.12), 0 1px 1px rgba(0,0,0,0.24);
+		-ms-box-shadow: 0 1px 0px rgba(0,0,0,0.12), 0 1px 1px rgba(0,0,0,0.24);
+		-o-box-shadow: 0 1px 0px rgba(0,0,0,0.12), 0 1px 1px rgba(0,0,0,0.24);
+		box-shadow: 0 1px 0px rgba(0,0,0,0.12), 0 1px 1px rgba(0,0,0,0.24);
+	}
+	.panel{
+		border-radius:0px;
+		padding: 0px;
+		border: none;
+	}
+
+	.panel-heading{
+		line-height: 1.42857143 !important;
+		color: #58666e !important;
+	}
+	.panel-heading
+	{
+		padding: 0px;
+		background: #F9F9F9;
+		padding: 5px;
+		padding-left: 20px;
+		border-bottom: 1px solid #ddd;
+	}
+
+
+
+
+	/* Vertical */
+
+	.vertical .progress-bar {
+		float: left;
+		height: 300px;
+		width: 23px;
+		margin-right: 25px;
+	}
+
+	.vertical .progress-track {
+		position: relative;
+		width: 23px;
+		height: 100%;
+		background: #ebebeb;
+	}
+
+	.vertical .progress-fill {
+		position: relative;
+		background: #825;
+		height: 50%;
+		width: 23px;
+		color: #fff;
+		text-align: center;
+		font-family: "Lato","Verdana",sans-serif;
+		font-size: 12px;
+		line-height: 20px;
+	}
+	.vertical .progress-fill span{font-size: 11px;}
+</style>
+<body>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-7 col-md-7 col-lg-7">
+				<div class="panel">
+					<div class="panel-heading panel-heading-white text-center">
+						<h4>Bar </h4>
+					</div>
+					<div class="panel-body">
+						<div class="container vertical flat">
+
+							<div class="progress-bar">
+								<div class="progress-track">
+									<div class="progress-fill">
+										<span>100%</span>
+									</div>
+								</div>
+							</div>
+
+							<div class="progress-bar">
+								<div class="progress-track">
+									<div class="progress-fill">
+										<span>75%</span>
+									</div>
+								</div>
+							</div>
+
+							<div class="progress-bar">
+								<div class="progress-track">
+									<div class="progress-fill">
+										<span>60%</span>
+									</div>
+								</div>
+							</div>
+
+							<div class="progress-bar">
+								<div class="progress-track">
+									<div class="progress-fill">
+										<span>20%</span>
+									</div>
+								</div>
+							</div>
+
+							<div class="progress-bar">
+								<div class="progress-track">
+									<div class="progress-fill">
+										<span>34%</span>
+									</div>
+								</div>
+							</div>
+
+							<div class="progress-bar">
+								<div class="progress-track">
+									<div class="progress-fill">
+										<span>82%</span>
+									</div>
+								</div>
+							</div>
+						</div> 
+					</div>
+				</div>
+				<div class="panel">
+					<div class="panel-heading panel-heading-white text-center">
+						<h4>Pie Chart</h4>
+					</div>
+					<div class="panel-body">
+						<div id="pie-chart" style="height:200px;"></div>
+					</div>
+				</div>
+			</div>
+		</div>    
+	</div>
+
+	<script src="js/plugins/jquery.flot.min.js"></script>
+	<script src="js/plugins/jquery.flot.pie.min.js"></script>
+	<script type="text/javascript">
+		pieChart();
+		function lineChart(){
+			var dataLine = [
+			{label: '&nbsp Trafic', color:'#58B2F4', data: [[1,25], [2,22], [3,25], [4,30], [5,20]]},
+			{label: '&nbsp User', color:'#8C54CA', data: [[1,10], [2,14], [3,20], [4,25], [5,40]]}
+			];
+
+			var optionsLine = {
+				grid: {
+					borderWidth: 0
+				}
+			};
+
+			$.plot("#line-chart",dataLine,optionsLine);
+		};
+
+
+		function pieChart(){
+			var dataPie = [
+			{ label: "Alfa", color:'#8C54CA', data: 210},
+			{ label: "Beta", color:'#58B2F4', data: 50},
+			{ label: "Gamma", color:'#BBE0E9', data: 150}
+			];
+
+			$.plot('#pie-chart', dataPie, {
+				series: {
+					pie: {
+						show: true
+					}
+				},
+				legend: {
+					show: false
+				}
+			});
+		};
+	</script>
+	<!-- bar chart -->
+	<script type="text/javascript">
+		$('.horizontal .progress-fill span').each(function(){
+			var percent = $(this).html();
+			$(this).parent().css('width', percent);
+		});
+
+
+		$('.vertical .progress-fill span').each(function(){
+			var percent = $(this).html();
+			var pTop = 100 - ( percent.slice(0, percent.length - 1) ) + "%";
+			$(this).parent().css({
+				'height' : percent,
+				'top' : pTop
+			});
+		});
+	</script>
+</body>
+</html>
