@@ -1,0 +1,173 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Chart</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/chart.css">
+</head>
+<body>
+
+<div class="container">
+<div class="row">
+  <div class="col-md-6">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">DONUT CHART</h3>
+      </div>
+      <div class="panel-body"><div class="chart" id="sales-chart" ></div></div>
+    </div>
+  </div>
+  <div class="col-lg-6">
+    <div class="panel panel-default">
+      <div class="panel-heading">PAI CHART</div>
+      <div class="panel-body">
+        <div class="flot-chart">
+          <div class="flot-chart-content" id="flot-pie-chart"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+   <div class="col-lg-12" id="bar-chart">
+            <div class="panel panel-info">
+                <div class="panel-heading text-center">
+                   RESULT
+                </div>
+                <div class="panel-body">
+                  <div class="barchart-Wrapper">
+
+                    <div class="barchart-TimeCol">
+                      <div class="barchart-Time">
+                        <span class="barchart-TimeText">100</span>
+                      </div>
+                      <div class="barchart-Time">
+                        <span class="barchart-TimeText">90</span>
+                      </div>
+                      <div class="barchart-Time">
+                        <span class="barchart-TimeText">80</span>
+                      </div>
+                      <div class="barchart-Time">
+                        <span class="barchart-TimeText">70</span>
+                      </div>
+                      <div class="barchart-Time">
+                        <span class="barchart-TimeText">60</span>
+                      </div>
+                      <div class="barchart-Time">
+                        <span class="barchart-TimeText">50</span>
+                      </div>
+                      <div class="barchart-Time">
+                        <span class="barchart-TimeText">40</span>
+                      </div>
+                      <div class="barchart-Time">
+                        <span class="barchart-TimeText">30</span>
+                      </div>
+                      <div class="barchart-Time">
+                        <span class="barchart-TimeText">20</span>
+                      </div>
+                      <div class="barchart-Time">
+                        <span class="barchart-TimeText">10</span>
+                      </div>
+                      <div class="barchart-Time">
+                        <span class="barchart-TimeText">0</span>
+                      </div>
+                    </div>
+
+                    <div class="barChart-Container">
+                      <div class="barchart">
+                        <div class="barchart-Col">
+                          <div class="barchart-Bar" style="height: 10%;" title="10%"></div>
+                          <div class="barchart-BarFooter " title="subject">subject</div>
+                        </div>
+                        <div class="barchart-Col">
+                          <div class="barchart-Bar" style="height: 30%;" title="30%"></div>
+                          <div class="barchart-BarFooter" title="subject">subject
+                          </div>
+                        </div>
+                        <div class="barchart-Col">
+                          <div class="barchart-Bar" style="height: 43.5%;" title="43.5%"></div>
+                          <div class="barchart-BarFooter"title="subject" >subject</div>
+                        </div>
+                        <div class="barchart-Col">
+                          <div class="barchart-Bar" style="height: 58%;" title="58%"></div>
+                          <div class="barchart-BarFooter" title="subject">subject</div>
+                        </div>
+                        <div class="barchart-Col">
+                          <div class="barchart-Bar" style="height: 72.5%;" title="72.5%"></div>
+                          <div class="barchart-BarFooter" title="subject">subject</div>
+                        </div>
+                        <div class="barchart-Col">
+                          <div class="barchart-Bar" style="height: 87%;" title="87%"></div>
+                          <div class="barchart-BarFooter" title="subject">subject</div>
+                        </div>
+
+                        <div class="barchart-Col">
+                          <div class="barchart-Bar" style="height: 100%;" title="100%"></div>
+                          <div class="barchart-BarFooter">subject</div>
+                        </div>
+                        <div class="barchart-Col">
+                          <div class="barchart-Bar" style="height: 87%;" title="87%"></div>
+                          <div class="barchart-BarFooter" title="subject">subject</div>
+                        </div>
+                           <div class="barchart-Col">
+                          <div class="barchart-Bar" style="height: 58%;" title="58%"></div>
+                          <div class="barchart-BarFooter" title="subject">subject</div>
+                        </div>
+                        <div class="barchart-Col">
+                          <div class="barchart-Bar" style="height: 72.5%;" title="72.5%"></div>
+                          <div class="barchart-BarFooter" title="subject">subject</div>
+                        </div>
+                        <div class="barchart-Col">
+                          <div class="barchart-Bar" style="height: 87%;" title="87%"></div>
+                          <div class="barchart-BarFooter" title="subject">subject</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+  </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+<!--  -->
+
+<script src="js/jquery.flot.js"></script>
+
+<script src="js/jquery.flot.pie.js"></script>
+<script src="js/jquery.flot.resize.js"></script>
+<script src="js/jquery.flot.tooltip.min.js"></script>
+<script src="js/flot-data.js"></script>
+
+<script src="js/morris.min.js"></script>
+ <script>
+ $(function () {
+    "use strict";
+
+ //DONUT CHART
+    var donut = new Morris.Donut({
+      element: 'sales-chart',
+      resize: true,
+      colors: ["#3c8dbc", "#f56954", "#00a65a"],
+      data: [
+        {label: "Test First", value: 50 },
+        {label: "Test Second", value: 60},
+        {label: "Test Third", value: 90}
+      ],
+      hideHover: 'auto'
+    });
+});
+ // chart
+document.addEventListener("DOMContentLoaded", function(event) { 
+    
+    var divs = document.getElementsByClassName('barchart-Bar');
+    for(var i=0; i < divs.length; i++) { 
+       divs[i].setAttribute("attr-height", divs[i].style.height);
+    }
+
+  });
+</script>
+</body>
+</html> 

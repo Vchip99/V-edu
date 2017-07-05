@@ -1,0 +1,603 @@
+<div class="portlet-body">
+            <div class="tabbable">
+              <div class="tab-content">
+                <div id="tab_1" class="tab-pane active"> 
+                 <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <h4 class="panel-title">TCS</h4>
+                    </div>
+                    <div class="panel-body">                   
+                         <p>Tata Consultancy Services is software services consulting company headquartered in Mumbai, India. It is the Asia’s largest IT service provider. The company also provides business solutions and outsourcing services.</p>
+                         <p><b>Service :</b> They provide service to varied clients for solving their business needs. TCS employees are outsourced for that work means, they are required to support & help their clients in solving their problems.</p>
+
+                         <p><b>Consulting:</b> It is the business model wherein TCS is being consulted by clients to engage in the business of giving expert advice to them so that they can grow either themselves or use option </p>
+                         <p><b>Business Solutions :</b> It is a combination of ideas used to help a company achieve its objectives. A business solution comes in terms of marketing, auditing, accounting market research, payroll and analysis, among other essential business activities. </p>
+                         <br/>
+
+                         <b>Quick facts about TCS:</b>
+                         <ul class="custom-list-style">
+
+                           <li> TCS is one of the largest Indian companies by market capitalization $80 billion.
+                           </li>
+                           <li> In 2015, TCS was ranked 64th overall in the Forbes World's Most Innovative Companies ranking, making it both the highest-ranked IT services company and the first Indian company.
+                           </li>
+                           <li> TCS is now placed among the ‘Big 4’ most valuable IT services brands worldwide.
+                           </li>
+                           <li>As of December 2015, it is ranked 10th on the Fortune India 500 list. </li>
+                           <li> TCS is the world's 10th largest IT services provider, measured by the revenues.
+                           </li>
+                           <li> Recently TCS also become the most profitable Indian Company surpassing the Reliance.</li>
+                           <li>TCS has been ranked number #1 in the client satisfaction in the United Kingdom.
+                           </li>
+                           <li> TCS is the second largest employer of India after Coal India Ltd and the largest in the IT Services. TCS has more than 300,000 employees among them 31% are women. It also has 7.7% Non-Indian employees.
+                           </li>
+                           <li> TCS is present in 46 countries and has 230 offices throughout. There are 147 delivery centers as well in 21 countries for the IT giant. Along with all these, TCS has 58 subsidiaries companies present in different locations
+                           </li>
+                           <li> TCS was founded in 1968 to support the sister concern TISCO now Tata Steel. It also has two other clients Central Bank of India and Unit Trust Of India at that time.</li>
+                           </ul>
+                    </div>
+                  </div>
+                </div>
+                 <!-- end about -->
+                <div id="tab_2" class="tab-pane ">
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">Selection Process:</h4>
+                      </div>
+                      <div class="panel-body">
+                       <p>TCS conducts recruitment process every year to select new candidates. The selection process of the company consists of 3 rounds. These rounds are as follows:</p>
+                       <ul class="custom-list-style">
+                         <li>Written Exam</li>
+                         <li>Technical Interview + Managerial Interview</li>
+                         <li>HR Interview</li>
+                       </ul>
+                      </div>
+                    </div>
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">Academic Criteria:</h4>
+                      </div>
+                      <div class="panel-body">
+                       <ul class="custom-list-style">
+                         <li>Minimum 60 percent throughout the degree.</li>
+                         <li>No backlogs should be there.</li>
+                         <li>Gap in studies for upto 2 years  is allowed with valid reasons.</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">Pattern of Written Exam:</h4>
+                      </div>
+                      <div class="panel-body">
+                        <table class="table table-striped table-bordered">
+                          <tr>
+                            <td><strong>Section</strong></td>
+                            <td><strong>No. of questions</strong></td>
+                            <td><strong>Time allotted (in mins)</strong></td>
+                          </tr>
+
+                          <tr>
+                            <td>Written Ability </td>
+                            <td>1</td>
+                            <td>10</td>
+                          </tr>
+
+                          <tr>
+                            <td>Aptitude</td>
+                            <td>30</td>
+                            <td>80</td>     
+                          </tr>
+
+                          <tr>
+                            <td><strong>Total</strong></td>
+                            <td><strong>31</strong></td>
+                            <td><strong>90</strong></td>
+                          </tr>
+                        </table>
+                        <b>Written Ability</b>
+                        <p>section consists of a scenario with certain keywords / phrases which should be used in the body of the given email. The minimum word limit should be 70 words. There is no negative marking in this section.</p>
+                        <b>Aptitude</b>
+                        <p>Aptitude frequently consists questions based on </p>
+                        <ul class="custom-list-style">
+                          <li>Averages, Mixtures and Alligations</li>
+                          <li>Percentages, Profit and loss</li>
+                          <li>Algebra, Ratio and Proportions</li>
+                          <li>Permutation and Combinations, Probability</li>
+                          <li>Time, speed, distance, Time and Work</li>
+                          <li>Functions, Geometry</li>
+                          <li>Numbers</li>
+                        </ul>
+                      </div>
+                    </div>
+                    
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">HR Interview</h4>
+                      </div>
+                      <div class="panel-body">
+                      <ul class="custom-list-style">
+                        <li>Introduce Yourself ?</li>
+                        <li>Why should I take you in TCS?</li>
+                        <li>Who inspired you to become an Engineer?</li>
+                        <li>What is your weakness?</li>
+                        <li>Extra co-curricular activities?</li>
+                        <li>Are you a team player?Why should we hire you?</li>
+                        <li>Tell me about your dream job?</li>
+                        <li>What is more important to you: the money or the work?</li>
+                        <li>Are you willing to work overtime? Nights? Weekends?</li>
+                        <li>Would you be willing to relocate if required?</li>
+                        <li>If you are rejected today, then what will you do?Who is the founder of TCS?</li>
+                        <li>Who is the present CEO?</li>
+                        <li>What is the name of the award TCS recently received?</li>
+                        <li>You'll be sent to any part of the country for work...... will you be ok with that?</li>
+                       <li> Why you want to join TCS? or  Why do you want to join TCS and not any other company?8. What do you know about TCS as a company?</li>
+                      </ul>
+                    </div>
+                    </div>
+                    <div class="panel panel-default">
+                      <div class="panel-heading link"><a href="">Sample Paper</a>  
+                      </div>
+                    </div>
+                   <!--  (<span>NOTE</span> all information provide about TCS is not directly come from TCS. we put this information from net.) -->
+                    <br/><br/>
+                    <div class="">
+                      <div class=" replyComment sub-cmt" id="replyComment">  
+                        <form>
+                          <div class="form-group">
+                            <label for="comment">Your Comment</label>
+                            <textarea name="comment" class="form-control" rows="4"></textarea>
+                          </div>
+                          <button type="submit" class="btn btn-default">Send</button>
+                        </form> 
+                      </div>
+                      <div class="">
+                        <div class="box-body chat " id="chat-box">
+                          <div class="item">
+                            <img src="img/user/user1.png" alt="User Image" />
+                            <div class="message">
+                              <div class="dropdown pull-right">
+                                <button class="btn dropdown-toggle btn-box-tool "  id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                  <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                  <li><a href="#">Delete</a></li>
+                                  <li><a href="#">Edit</a></li>                        
+                                </ul>
+                              </div>
+                              <p class="more"><a href="" class="SubCommentName">Mike Doe</a>
+                                I would like to meet you to discuss the latest news about
+                                the arrival of the new theme. They say it is going to be one the
+                                best themes on the market</p>
+                              </div>
+                              <div class="comment-meta reply-1">
+                                <span>
+                                 <i id="like1" class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+                                 <span id="like1-bs3"></span>
+                               </span>
+                               <span class="mrgn_5_left">
+                                <a href="#replyComment" role="button" >reply</a>
+                              </span>
+                              <span class="text-muted time-of-reply"><i class="fa fa-clock-o"></i> 2:15</span>
+                            </div>
+                          </div>
+                          <!-- sub reply 1 -->
+                          <div class="item replySubComment-1">
+                            <img src="img/user/user1.png" alt="User Image" />
+                            <div class="message">
+                              <div class="dropdown pull-right">
+                                <button class="btn dropdown-toggle btn-box-tool "  id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                  <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                  <li><a href="#">Delete</a></li>
+                                  <li><a href="#">Edit</a></li>                        
+                                </ul>
+                              </div>
+                              <p class="more"><a href="" class="SubCommentName">Namu</a>
+                                reply to sub comment</p>
+                              </div>
+                              <div class="comment-meta reply-1">
+                                <span>
+                                 <i id="like1" class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+                                 <span id="like1-bs3"></span>
+                               </span>                      
+                               <span class="mrgn_5_left">
+                                <a href="#replyComment" role="button" >reply</a>
+                              </span>
+                              <span class="text-muted time-of-reply"><i class="fa fa-clock-o"></i> 3hr</span>
+
+                            </div>
+                          </div>
+                          <!-- sub reply 2 -->
+                          <div class="item replySubComment-1">
+                            <img src="img/user/user1.png" alt="User Image" />
+                            <div class="message">
+                              <div class="dropdown pull-right">
+                                <button class="btn dropdown-toggle btn-box-tool "  id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                  <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu3">
+                                  <li><a href="#">Delete</a></li>
+                                  <li><a href="#">Edit</a></li>                        
+                                </ul>
+                              </div>
+                              <p class="more"><a href="" class="SubCommentName">Sid</a>
+                                reply to sub comment</p>
+                              </div>
+                              <div class="comment-meta reply-1">
+                                <span>
+                                 <i id="like1" class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+                                 <span id="like1-bs3"></span>
+                               </span>
+                               <span class="mrgn_5_left">
+                                <a href="#replyComment" role="button" >reply</a>
+                              </span>
+                              <span class="text-muted time-of-reply"><i class="fa fa-clock-o"></i> 23hr</span>                   
+                            </div>
+                          </div>               
+                        </div>
+                      </div>
+                    </div> 
+                </div>
+                 <!-- end pp -->
+                 <div id="dropdown1-tab" class="tab-pane ">
+                  <div class="post-comments">
+                    <div class="media">
+                      <div class="media-heading panel-collapse-clickable" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseExample">
+                          <div class="user-block ">
+                            <span class="tital">This Is Tital One </span>
+                          </div>
+                          <div class="box-tools btn-group">
+                            <button type="button" class="btn btn-box-tool "  >
+                             <i class="glyphicon glyphicon-chevron-down" ></i>
+                           </button>
+                           <div type="button" class="btn btn-box-tool toggle-dropdown" data-toggle="dropdown"  >
+                            <i class="fa fa-cog"></i>
+                          </div>
+                          <ul role="menu" class="dropdown-menu dropdown-menu-right" >
+                            <li><a href="#">Delete</a></li>
+                            <li><a href="#">Edit</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="cmt-parent  panel-collapse collapse " id="collapseOne">
+                        <div class="user-block">
+                          <img class="img-circle" src="img/user/user1.png" alt="User Image" />
+                          <span class="username">Ashu</span>
+                          <span class="description">Shared publicly - 7:30 PM Today</span>
+                        </div>
+                        <div  class="media-body " data-toggle="lightbox ">
+                          <br/>
+                          <p class="more bold">this is body of above tital
+                            I would like to meet you to discuss the latest news about
+                            the arrival of the new theme. They say it is going to be one the
+                            best themes on the market</p>
+                            <div class="border-bottom"></div>
+                            <div class="comment-meta main-reply-box">
+                              <span>
+                               <i id="like1" class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+                               <span id="like1-bs3"></span>
+                             </span>
+                             <span class="mrgn_5_left">
+                              <a class="" role="button" data-toggle="collapse" href="#replyCommentone" aria-expanded="false" aria-controls="collapseExample">reply</a>
+                            </span>
+                            <div class="collapse replyComment" id="replyCommentone">
+                              <form>
+                                <div class="form-group">
+                                  <label for="comment">Your Comment</label>
+                                  <textarea name="comment" class="form-control" rows="3"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-default">Post</button>
+                              </form>
+                            </div>
+                          </div>
+                          <div class="cmt-bg">
+                            <div class="box-body chat " id="chat-box">
+                              <div class="item">
+                                <img src="img/user/user1.png" alt="User Image" />
+                                <div class="message">
+                                  <div class="dropdown pull-right">
+                                    <button class="btn dropdown-toggle btn-box-tool "  id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                      <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                      <li><a href="#">Delete</a></li>
+                                      <li><a href="#">Edit</a></li>                        
+                                    </ul>
+                                  </div>
+                                  <p class="more"><a href="" class="SubCommentName">Mike Doe</a>
+                                    I would like to meet you to discuss the latest news about
+                                    the arrival of the new theme. They say it is going to be one the
+                                    best themes on the market</p>
+                                  </div>
+                                  <div class="comment-meta reply-1">
+                                    <span>
+                                     <i id="like1" class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+                                     <span id="like1-bs3"></span>
+                                   </span>
+                                   <span class="mrgn_5_left">
+                                    <a class="" role="button" >reply</a>
+                                  </span>
+                                  <span class="text-muted time-of-reply"><i class="fa fa-clock-o"></i> 2:15</span>
+                                </div>
+                              </div>
+                              <!-- sub reply 1 -->
+                              <div class="item replySubComment-1">
+                                <img src="img/user/user1.png" alt="User Image" />
+                                <div class="message">
+                                  <div class="dropdown pull-right">
+                                    <button class="btn dropdown-toggle btn-box-tool "  id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                      <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                      <li><a href="#">Delete</a></li>
+                                      <li><a href="#">Edit</a></li>                        
+                                    </ul>
+                                  </div>
+                                  <p class="more"><a href="" class="SubCommentName">Namu</a>
+                                    reply to sub comment</p>
+                                  </div>
+                                  <div class="comment-meta reply-1">
+                                    <span>
+                                     <i id="like1" class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+                                     <span id="like1-bs3"></span>
+                                   </span>                      
+                                   <span class="mrgn_5_left">
+                                    <a class="" role="button" >reply</a>
+                                  </span>
+                                  <span class="text-muted time-of-reply"><i class="fa fa-clock-o"></i> 3hr</span>
+                                </div>
+                              </div>
+                              <!-- sub reply 2 -->
+                              <div class="item replySubComment-1">
+                                <img src="img/user/user1.png" alt="User Image" />
+                                <div class="message">
+                                  <div class="dropdown pull-right">
+                                    <button class="btn dropdown-toggle btn-box-tool "  id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                      <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu3">
+                                      <li><a href="#">Delete</a></li>
+                                      <li><a href="#">Edit</a></li>                        
+                                    </ul>
+                                  </div>
+                                  <p class="more"><a href="" class="SubCommentName">Sid</a>
+                                    reply to sub comment</p>
+                                  </div>
+                                  <div class="comment-meta reply-1">
+                                    <span>
+                                     <i id="like1" class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+                                     <span id="like1-bs3"></span>
+                                   </span>
+                                   <span class="mrgn_5_left">
+                                    <a class="" role="button" >reply</a>
+                                  </span>
+                                  <span class="text-muted time-of-reply"><i class="fa fa-clock-o"></i> 23hr</span>
+                                </div>
+                              </div>
+                              <div class=" replyComment sub-sub-cmt" id="replySubComment-2">  
+                                <form>
+                                  <div class="form-group">
+                                    <label for="comment">Your Comment</label>
+                                    <textarea name="comment" class="form-control" rows="1"></textarea>
+                                  </div>
+                                  <button type="submit" class="btn btn-default">Post</button>
+                                </form> 
+                              </div>
+                            </div>
+                            <!-- end First reply -->
+                            <!-- Second Reply -->
+                            <div class="box-body chat " id="chat-box">
+                              <div class="item">
+                                <img src="img/user/user1.png" alt="User Image" />
+                                <div class="message">
+                                  <div class="dropdown pull-right">
+                                    <button class="btn dropdown-toggle btn-box-tool "  id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                      <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                      <li><a href="#">Delete</a></li>
+                                      <li><a href="#">Edit</a></li>                        
+                                    </ul>
+                                  </div>
+                                  <p><a href="" class="SubCommentName">Simaran</a>
+                                    I would like to meet you to discuss the latest news about
+                                    the arrival of the new theme. They say it is going to be one the
+                                    best themes on the market</p>
+                                  </div>
+                                  <div class="comment-meta reply-1">
+                                    <span>
+                                     <i id="like1" class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+                                     <span id="like1-bs3"></span>
+                                   </span>
+                                   <span class="mrgn_5_left">
+                                    <a class="" role="button" data-toggle="collapse" href="#replySubComment-02" aria-expanded="false" aria-controls="collapseExample">reply</a>
+                                  </span>
+                                  <span class="text-muted time-of-reply"><i class="fa fa-clock-o"></i> 2:15</span>
+                                  <div class="collapse replyComment" id="replySubComment-02">  
+                                    <form>
+                                      <div class="form-group">
+                                        <label for="comment">Your Comment</label>
+                                        <textarea name="comment" class="form-control" rows="2"></textarea>
+                                      </div>
+                                      <button type="submit" class="btn btn-default">Post</button>
+                                    </form> 
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- sub reply 1 -->
+                              <div class="item replySubComment-1">
+                                <img src="img/user/user1.png" alt="User Image" />
+                                <div class="message">
+                                  <div class="dropdown pull-right">
+                                    <button class="btn dropdown-toggle btn-box-tool "  id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                      <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                      <li><a href="#">Delete</a></li>
+                                      <li><a href="#">Edit</a></li>                        
+                                    </ul>
+                                  </div>
+                                  <p><a href="" class="SubCommentName">Sonu</a>
+                                    reply to sub comment</p>
+                                  </div>
+                                  <div class="comment-meta reply-1">
+                                    <span>
+                                     <i id="like1" class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+                                     <span id="like1-bs3"></span>
+                                   </span>
+                                   <span class="mrgn_5_left">
+                                    <a class="" role="button" data-toggle="collapse" href="#replySubComment-21" aria-expanded="false" aria-controls="collapseExample">reply</a>
+                                  </span>
+                                  <div class="collapse replyComment" id="replySubComment-21">  
+                                    <form>
+                                      <div class="form-group">
+                                        <label for="comment">Your Comment</label>
+                                        <textarea name="comment" class="form-control" rows="1"></textarea>
+                                      </div>
+                                      <button type="submit" class="btn btn-default">Post</button>
+                                    </form> 
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- sub reply 2 -->
+                              <div class="item replySubComment-1">
+                                <img src="img/user/user1.png" alt="User Image" />
+                                <div class="message">
+                                  <div class="dropdown pull-right">
+                                    <button class="btn dropdown-toggle btn-box-tool "  id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                      <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu3">
+                                      <li><a href="#">Delete</a></li>
+                                      <li><a href="#">Edit</a></li>                        
+                                    </ul>
+                                  </div>
+                                  <p><a href="" class="SubCommentName">Sid</a>
+                                    reply to sub comment</p>
+                                  </div>
+                                  <div class="comment-meta reply-1">
+                                    <span>
+                                     <i id="like1" class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+                                     <span id="like1-bs3"></span>
+                                   </span>
+                                   <span class="mrgn_5_left">
+                                    <a class="" role="button" data-toggle="collapse" href="#replySubComment-22" aria-expanded="false" aria-controls="collapseExample">reply</a>
+                                  </span>
+                                  <div class="collapse replyComment" id="replySubComment-22">  
+                                    <form>
+                                      <div class="form-group">
+                                        <label for="comment">Your Comment</label>
+                                        <textarea name="comment" class="form-control" rows="1"></textarea>
+                                      </div>
+                                      <button type="submit" class="btn btn-default">Post</button>
+                                    </form> 
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- end Two reply -->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                 </div>  
+                  <!--end Candidate Exp. -->
+                 <div id="dropdown2-tab" class="tab-pane row padding_10_left_right">
+                    <div class="col-md-4 ">
+                     <select class="form-control mrgn_10_top_btm " id="cat">
+                        <option>select Area</option>
+                        <option>IT</option>
+                        <option>Electronic</option>
+                        <option>Mechanical</option>
+                        <option>Electrical</option>
+                      </select>
+                    </div> 
+                    <div class="col-md-4 ">
+                       <select class="form-control mrgn_10_top_btm" id="cat">
+                          <option>select Company</option>
+                          <option>Tcs</option>
+                          <option>Congnizent</option>
+                          <option>Infosis</option>
+                          <option>Tech Mahindra</option>
+                          <option>Wipro</option>
+                          <option>Intel</option>
+                          <option>Anlog Devices</option>
+                          <option>Texa</option>
+                          <option></option>
+                          <option></option>
+                        </select> 
+                    </div>   
+                    <div class="widget-area no-padding blank col-md-8">
+                          <div class="status-upload">
+                            <form>
+                              <div class="input-group">
+                                <span class="input-group-addon">Tital</span>
+                                <input id="tital" type="text" class="form-control" name="tital" placeholder="Add Tital Here">
+                              </div>
+                              <textarea placeholder="Your question here" ></textarea>
+                              <ul>
+                                <li><a title="" data-toggle="tooltip" data-placement="bottom" data-original-title="Audio"><i class="fa fa-music"></i></a></li>
+                                <li><a title="" data-toggle="tooltip" data-placement="bottom" data-original-title="Video"><i class="fa fa-video-camera"></i></a></li>
+                                <li><a title="" data-toggle="tooltip" data-placement="bottom" data-original-title="Sound Record"><i class="fa fa-microphone"></i></a></li>
+                                <li><a title="" data-toggle="tooltip" data-placement="bottom" data-original-title="Picture"><i class="fa fa-picture-o"></i></a></li>
+                              </ul>
+                               <button type="submit" class="btn btn-primary "><i class="fa fa-share"></i> Share</button>
+                            </form>
+                          </div>
+                    </div>
+                 </div>
+                 <!-- end share exp -->
+                 <div id="tab_4" class="tab-pane ">
+                    <!-- question-1 -->
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h4 class="panel-title"> How hard is it to get into TCS through campus placements?</h4>
+                      </div>
+                      <div class="panel-body">
+                      Getting placed in TCS is very easy if you will follow proper study strategy for one or two months before campus placement.
+                      </div>
+                    </div>
+                    <!-- question-2 -->
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h4 class="panel-title"> How would life be after joining TCS through campus placements?</h4>
+                      </div>
+                      <div class="panel-body">
+                      It would be a great experience. Once you join TCS ,the first 3 month is "Training period" where you will learn a lot of things apart from technical. You will have interesting sessions where you will have to perform skit and various other group activities. You will be given various responsibility like Group Representative , Safety Champ and many more. The best moment would be the last working day of your first month when you will receive the message XXXXX Rs has been credited to your account and it will make you feel more  Happy , Proud and responsible. After completion of training you will be assigned to a project where you will have to adjust accordingly in various fields which you will know only after getting into project. 
+                      </div>
+                    </div>
+                     <!-- question-3-->
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">What is the employee strength of TCS? </h4>
+                      </div>
+                      <div class="panel-body">
+                      As of March 31,2017 TCS employed 387,223 professionals.
+                      </div>
+                    </div>
+                    <!-- question-4-->
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">Where is TCS located? </h4>
+                      </div>
+                      <div class="panel-body">
+                      TCS is headquartered in Mumbai, India, and has a global presence with 227 offices in 49 countries and 141 Solution centers in 19 countries
+                      </div>
+                    </div>
+                     <!-- question-4-->
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">Where is TCS located? </h4>
+                      </div>
+                      <div class="panel-body">
+                      TCS is headquartered in Mumbai, India, and has a global presence with 227 offices in 49 countries and 141 Solution centers in 19 countries
+                      </div>
+                    </div>
+                 </div>
+                 <!-- end FAQ -->
+             </div>
+            </div>
+          </div>
