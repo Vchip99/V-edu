@@ -1,0 +1,160 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+  <title>Register</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="css/index.css" rel="stylesheet"/>
+
+  <style type="text/css">
+    .fullscreen_bg {
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-size: cover;
+      background-position: 50% 50%;
+      background-image: url('img/header.jpg');
+      background-repeat:repeat;
+    }
+
+    .form-wrap {
+    border-top: 10px solid #01bafd;
+    position: relative;
+    width: 100%;
+  }
+ .form-wrap h3 {
+    font-family: "Kaushan Script", cursive;
+  }
+   .form-wrap .tab-content {
+    z-index: 10;
+    position: relative;
+    clear: both;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 30px;}
+.form-wrap .tab-content h3 {
+    color: #fff;  }
+  .form-wrap .tab-content label {
+    color: rgba(255, 255, 255, 0.8);  }
+ .form-wrap .tab-content .tab-content-inner {
+    display: none;  }
+ .form-wrap .tab-content .tab-content-inner.active {
+    display: block;  }
+ .form-wrap .tab-content .form-control {
+    color: #fff !important;
+    border: 2px solid rgba(255, 255, 255, 0.2);  }
+ option{color: #000; 
+  background-color:  transparent !important; }
+  .v_container{margin-top:50px ;
+    margin-bottom:50px ;}
+  </style>
+
+</head>
+<body>
+
+  <div id="fullscreen_bg" class="fullscreen_bg"></div>
+  <div class="container v_container">
+    <div class="overlay"></div>
+    <div class="vchip-container " >
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+          <div class="form-wrap">
+            <div class="tab">
+              <div class="tab-content">
+                <div class="tab-content-inner active" data-content="signup">
+                  <ul class=" nav-tabs v_login_reg text-center">
+                    <li class="active"><a data-toggle="tab" href="#home">Sign In</a></li>
+                  </ul>
+                    <div class="tab-content">
+                      <div id="home" class="tab-pane fade in active">
+                        <form id="loginForm" method="POST">
+                          <div class="form-group">
+                           <input type="text" class="form-control" name="username" value="" placeholder="User / Institute"/>
+                           <span class="help-block"></span>
+                          </div>
+                          <div class="form-group">
+                            <input type="phone" class="form-control" name="mobile number" value="" placeholder="Mobile number" />
+                            <span class="help-block"></span>
+                          </div>
+                          <div class="form-group">
+                            <input type="text" class="form-control" name="email" value="" placeholder="vchip@gmail.com" />
+                            <span class="help-block"></span>
+                          </div>
+                          <div class="form-group">
+                            <input type="password" class="form-control" name="password" placeholder="password" />
+                            <span class="help-block"></span>
+                          </div>
+                          <div class="form-group">
+                            <input type="password" class="form-control" name="password" placeholder="reenter password" />
+                            <span class="help-block"></span>
+                          </div>
+                          <br/>
+                          <select class="form-control slt" id="field">
+                            <option>Select Field</option>
+                            <option>BE </option>
+                            <option>Btech </option>
+                          </select>
+                          <br/>
+                          <select class="form-control slt" id="user">
+                            <option>Select User</option>
+                            <option>Admin </option>
+                            <option value="student">Student</option>
+                            <option>Lecturer</option>
+                            <option>HOD</option>
+                            <option>Principle / Director</option>
+                            <option>TNP officer</option>
+                            <option>Other</option>
+                          </select>
+                          <br/>
+                          <select class="form-control  slt" id="clg">
+                            <option> Select  Collage Name</option>
+                            <option>a </option>
+                            <option>b</option>
+                            <option>c</option>
+                            <option>d</option>
+                            <option>e</option>
+                            <option>f</option>
+                          </select>
+                          
+                          <br/>
+                          <select class="form-control  slt " id="dept">
+                            <option>Select Dipartment</option>
+                            <option>CSE </option>
+                            <option>ECE</option>
+                            <option>ME</option>
+                            <option>Civil</option>
+                          </select>
+                          <br/>
+                          <select class="form-control  slt" id="yer">
+                            <option>Select Year</option>
+                            <option>First Year</option>
+                            <option>Second Year </option>
+                            <option>Third Year</option>
+                            <option>Final Year</option>
+                          </select>
+                          <br/>
+                          <div class="form-group ">
+                            <input type="number" class="form-control" name="" placeholder="Roll No." />
+                            <span class="help-block"></span>
+                          </div>
+                          <button type="submit" value="Register" name="submit" class="btn btn-info btn-block">Register
+                          </button><br />
+                          <div><a class="mrgn_10_top" href="index.html">alredy member?</a></div>
+                         </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+</body>
+</html> 

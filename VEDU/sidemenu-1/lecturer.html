@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>sidemenu</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+
+  <!-- Theme style -->
+  <link rel="stylesheet" href="sidemenu/sidemenu_layout.css">
+  <link rel="stylesheet" href="sidemenu/_all-skins.css">
+  <link rel="stylesheet" href="css/dashbord.css">
+
+<link href="css/nav_footer.css" rel="stylesheet"/>
+  <link href="css/v_main.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="http://cdn.jsdelivr.net/animatecss/2.1.0/animate.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <style type="text/css">
+</style>
+</head>
+<body class="hold-transition skin-blue sidebar-mini sidebar-collapse" id="body">
+<div class="wrapper ">
+
+  <header class="main-header ">
+    <!-- Logo -->
+    <a href="index.html" class="logo">
+      <span class="logo-mini"><b> V</b>EDU</span>
+      <span class="logo-lg"><b>Vchip</b>Design</span>
+    </a>
+    <nav class="navbar navbar-static-top ">
+      <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button" id="zxc" >
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+    </nav>
+  </header>
+  <aside class="main-sidebar" id="sidebar">
+    <div class="sidebar">
+      <!-- Sidebar user panel -->
+      <div class="user-panel">
+        <div class="pull-left image">
+          <img src="img/user/user.png" class="img-circle" alt="User Image">
+        </div>
+        <div class="pull-left info">
+          <p>Ashvini D.</p>
+          <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+        </div>
+      </div>
+      <!-- search form -->
+      <form action="#" method="get" class="sidebar-form">
+        <div class="input-group">
+          <input type="text" name="q" class="form-control" placeholder="Search...">
+              <span class="input-group-btn">
+                <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i>
+                </button>
+              </span>
+        </div>
+      </form>
+      <!-- /.search form -->
+      <!-- sidebar menu: : style can be found in sidebar.less -->
+      <ul class="sidebar-menu">
+        <li class="header">Vchip Design</li>
+        <li><a href="#"><i class="fa fa-user text-aqua"></i> <span>Profile</span></a></li>
+        <li><a href="#"><i class="fa fa-users text-aqua"></i> <span>Student</span></a></li>
+        <li><a href="#"><i class="fa fa-pencil-square-o text-aqua"></i> <span>Test Result</span></a></li>
+        <li><a href="#"><i class="fa fa-video-camera text-aqua"></i> <span>Video</span></a></li>
+
+      </ul>
+    </div>
+    <!-- /.sidebar -->
+  </aside>
+
+  <!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper v-container" >
+<div class="top mrgn_40_btm">
+    <div class="container">
+      <div class="row">
+       <div class=""> 
+          <div class="col-md-3 mrgn_10_btm">
+           <select class="form-control" id="sel1">
+            <option>Category</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+           </select>
+          </div>
+          <div class="col-md-3 ">
+              <form action="#" method="get" >
+                <div class="input-group">
+                  <input type="text" name="q" class="form-control" placeholder="Search...">
+                      <span class="input-group-btn">
+                        <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i>
+                        </button>
+                      </span>
+                </div>
+              </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="">
+    <div class="container">
+      <div class="row">
+       <div class="mrgn_20_btm"> 
+          <div class="col-md-3 mrgn_10_btm">
+           <select class="form-control" id="sel1">
+            <option>Category</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+           </select>
+          </div>
+          <div class="col-md-3 ">
+           <select class="form-control" id="sel1">
+            <option>Subcategory</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+           </select>
+          </div>
+        </div>
+          <div class="col-lg-12" id="all-result">
+            <div class="panel panel-info">
+                <div class="panel-heading text-center">
+                   RESULT
+                </div>
+                <div class="panel-body">
+                    <table  class="" id="dataTables-example">
+                        <thead>
+                            <tr>
+                                <th>Sr. No.</th>
+                                <th>Courses</th>
+                                <th>Grade</th>
+                                <th>Certificate</th>
+                                
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="">
+                                <td>1</td>
+                                <td>Electronic & Telcom.</td>
+                                <td>A</td>
+                                <td class="center">Non-certified</td>
+                            </tr>
+                             <tr class="">
+                                <td>2</td>
+                                <td>EE</td>
+                                <td>B+</td>
+                                <td class="center">Certified</td>
+                            </tr>
+                             <tr class="">
+                                <td>3</td>
+                                <td>CSE</td>
+                                <td>A</td>
+                                <td class="center">Certified</td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+          </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ./wrapper -->
+</div>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="js/app.js"></script>
+
+<script>
+$("#header1").click(function() {
+  $("body").addClass("sidebar-collapse");
+})
+$("#footer1").click(function() {
+  $("body").addClass("sidebar-collapse");
+})
+// chart
+document.addEventListener("DOMContentLoaded", function(event) { 
+    
+    var divs = document.getElementsByClassName('barchart-Bar');
+    for(var i=0; i < divs.length; i++) { 
+       divs[i].setAttribute("attr-height", divs[i].style.height);
+    }
+
+  });
+
+
+</script>
+
+</body>
+</html>

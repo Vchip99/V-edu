@@ -1,0 +1,195 @@
+
+#all-result{padding: 20px 0px;}
+#all-result .panel-heading{font-weight: bolder;}
+#all-result .panel-body{height: 400px;
+overflow: scroll;}
+.v-container{padding: 100px  0px;}
+table { 
+  width: 100%; 
+  border-collapse: collapse; 
+}
+/* Zebra striping */
+tr:nth-of-type(odd) { 
+  background: #eee; 
+}
+th { 
+  background: #333; 
+  color: white; 
+  font-weight: bold; 
+}
+td, th { 
+  padding: 6px; 
+  border: 1px solid #ccc; 
+  text-align: left; 
+}
+/* 
+Max width before this PARTICULAR table gets nasty
+This query will take effect for any screen smaller than 760px
+and also iPads specifically.
+*/
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+  /* Force table to not be like tables anymore */
+  table, thead, tbody, th, td, tr { 
+    display: block; 
+  }
+  
+  /* Hide table headers (but not display: none;, for accessibility) */
+  thead tr { 
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+  
+  tr { border: 1px solid #ccc; }
+  
+  td { 
+    /* Behave  like a "row" */
+    border: none;
+    border-bottom: 1px solid #eee; 
+    position: relative;
+    padding-left: 50%; 
+  }
+  
+  td:before { 
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: 6px;
+    left: 6px;
+    width: 45%; 
+    padding-right: 10px; 
+    white-space: nowrap;
+  }
+  
+  /*
+  Label the data
+  */
+  td:nth-of-type(1):before { content: "Sr. No." ; font-weight: bolder; }
+  td:nth-of-type(2):before { content: "Subject";  font-weight: bolder;}
+  td:nth-of-type(3):before { content: "Paper"; font-weight: bolder;}
+  td:nth-of-type(4):before { content: "Marks"; font-weight: bolder;}
+  td:nth-of-type(5):before { content: "Rank"; font-weight: bolder;}
+}
+/*chart*/
+ * {
+    box-sizing: border-box;
+  }
+  #bar-chart {
+    padding:  0px;
+    font: 12px "Verdana";
+  width: 100%;
+  }
+  #bar-chart .panel{  padding-bottom: 20px;}
+  #bar-chart .panel-heading{ font-weight: bolder;}
+  .barchart-Wrapper {
+    display: table;
+    position: relative;
+    margin: 0px 0;
+    height: 400px; /* defines height for the box, everything else responds to this */
+  }
+
+  .barChart-Container {
+    display: table-cell;
+    width: 100%;
+    height: 100%;
+    padding-left: 15px;
+  }
+
+  .barchart {
+    display: table;
+    table-layout: fixed;
+    height: 100%;
+    width: 100%;
+    padding: 0px 10px;
+  }
+
+  .barchart-Col {
+    position: relative;
+    vertical-align: bottom;
+    display: table-cell;
+    height: 100%;
+  }
+  .barchart-Col +.barchart-Col {
+    border-left: 4px solid transparent;
+  }
+
+  .barchart-Bar {
+      background: #ADD8E6;
+    position: relative;
+  }
+  .barchart-Bar:after {
+    content: attr(attr-height);
+      color: white;
+      position: absolute;
+    text-align: center;
+    width: 100%;
+  }
+
+  .barchart-BarFooter {
+    position: absolute;
+    text-align: center;
+    height: 10%;
+    width: 100%;
+  }
+
+  .barchart-TimeCol {
+    position: absolute;
+    top: 0;
+    width: 2%;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .barchart-Time {
+    height: 10%;
+    vertical-align: middle;
+    position: relative;
+  }
+
+  .barchart-Time:first-child .barchart-TimeText {
+    top: -3px;
+  }
+
+  .barchart-Time:last-child .barchart-TimeText {
+    top: -12px;
+  }
+
+  .barchart-Time:after {
+    border-bottom: 1px dashed #ccc;
+    content: "";
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0em;
+  }
+
+  .barchart-Time:last-child:after {
+    border-bottom: none;
+  }
+
+  .barchart-TimeText {
+    position: absolute;
+    top: -7px;
+    z-index: 1;
+    background: white;
+    padding-right: 5px;
+  }
+
+  .lt-ie9 .barchart-TimeText {
+    top: -3px !important;
+  }
+  }
+.barchart-Col {
+  width: 15px;
+}
+.barchart-BarFooter {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
